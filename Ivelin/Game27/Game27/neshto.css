@@ -1,0 +1,39 @@
+.h1 {
+    text-align: center;
+    font-size: 130px;
+    font-family: 'High Tower', sans-serif;
+    height: 60px;
+    color: orange;
+}
+.paragraph{
+    text-align: center;
+    font-size: 70px;
+    font-family: 'High Tower', sans-serif;
+}
+.anchor {
+    text-align: center;
+    font-size: 50px;
+    color: green;
+    font-family: 'High Tower', sans-serif;
+    line-height: 5;
+    
+    
+}
+
+.an{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'High Tower', sans-serif;
+    color: red;
+    
+}
+img{
+    width: 500px;
+    height: 300px;
+    border-radius: 20px;
+    border: 5px solid black;
+    border-radius: 6px;
+    padding: 5px;
+
+
+}
