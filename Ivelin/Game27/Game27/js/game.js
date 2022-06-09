@@ -20,6 +20,7 @@ function preload() {
     game.load.image('platform','pictures/backgrounds/platform.png')
     game.load.image('bg','pictures/backgrounds/desert.png')
     game.load.spritesheet('coin','pictures/spriteSheet/star.960x960.5x5.png',960 / 5, 960 / 5)
+    game.load.audio('audio', 'pictures/Coming-Out_AdobeStock_332789511_preview.mp3')
 }
     
 function create() {
@@ -27,6 +28,8 @@ function create() {
     createButtons()
     //console.log(coins.length)
     scoreAndResult()
+    let music = game.sound.add('audio')
+    music.play()
 }
 
 function createWorld(){
